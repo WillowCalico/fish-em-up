@@ -1,5 +1,5 @@
 {
-  "parent": "item/handheld_rod",
+  "parent": "fishemup:item/diamondrod",
   "textures": {
     "layer0": "fishemup:item/diamondrodcast"
   }
