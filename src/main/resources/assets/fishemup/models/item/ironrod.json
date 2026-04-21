@@ -2,5 +2,13 @@
   "parent": "item/handheld_rod",
   "textures": {
     "layer0": "fishemup:item/ironrod"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cast": 1
+      },
+      "model": "fishemup:item/ironrodcast"
+    }
+  ]
 }
