@@ -25,5 +25,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.diamond_fishing_rod.get())
                 .add(ModItems.iron_fishing_rod.get())
                 .add(ModItems.gold_fishing_rod.get());
+
+        tag(ItemTags.DURABILITY_ENCHANTABLE)
+                .add(ModItems.netherite_fishing_rod.get())
+                .add(ModItems.diamond_fishing_rod.get())
+                .add(ModItems.iron_fishing_rod.get())
+                .add(ModItems.gold_fishing_rod.get());
     }
 }

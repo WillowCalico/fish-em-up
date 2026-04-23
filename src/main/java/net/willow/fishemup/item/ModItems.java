@@ -42,10 +42,7 @@ public class ModItems {
                     Tiers.GOLD
             ));
 
-    // public static final DeferredItem<SmithingTemplateItem> diamond_upgrade_template = ITEMS.register("diamond_upgrade_template",
-    //        ()-> new SmithingTemplateItem(
-    //
-    //       ));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
