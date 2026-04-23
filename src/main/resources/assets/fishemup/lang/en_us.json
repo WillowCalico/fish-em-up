@@ -1,7 +1,7 @@
 {
-  "item.fishemup.netheriterod": "Netherite Fishing Rod",
-  "item.fishemup.diamondrod": "Diamond Fishing Rod",
-  "item.fishemup.ironrod": "Iron Fishing Rod",
-  "item.fishemup.goldrod": "Golden Fishing Rod",
+  "item.fishemup.netherite_fishing_rod": "Netherite Fishing Rod",
+  "item.fishemup.diamond_fishing_rod": "Diamond Fishing Rod",
+  "item.fishemup.iron_fishing_rod": "Iron Fishing Rod",
+  "item.fishemup.gold_fishing_rod": "Golden Fishing Rod",
   "creativetab.fishemup.fishemup_items": "Fish Em Up"
 }

@@ -10,7 +10,7 @@ import net.willow.fishemup.FishEmUp;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(FishEmUp.MOD_ID);
 
-    public static final DeferredItem<FishingRodItem> netheriterod = ITEMS.register("netheriterod",
+    public static final DeferredItem<FishingRodItem> netherite_fishing_rod = ITEMS.register("netherite_fishing_rod",
             ()-> new FishingRodItem(new Item.Properties()
                     .stacksTo(1)
                     .durability(256)
@@ -18,19 +18,19 @@ public class ModItems {
 
             ));
 
-    public static final DeferredItem<FishingRodItem> diamondrod = ITEMS.register("diamondrod",
+    public static final DeferredItem<FishingRodItem> diamond_fishing_rod = ITEMS.register("diamond_fishing_rod",
             ()-> new FishingRodItem(new Item.Properties()
                     .stacksTo(1)
                     .durability(128)
             ));
 
-    public static final DeferredItem<FishingRodItem> ironrod = ITEMS.register("ironrod",
+    public static final DeferredItem<FishingRodItem> iron_fishing_rod = ITEMS.register("iron_fishing_rod",
             ()-> new FishingRodItem(new Item.Properties()
                     .stacksTo(1)
                     .durability(86)
             ));
 
-    public static final DeferredItem<FishingRodItem> goldrod = ITEMS.register("goldrod",
+    public static final DeferredItem<FishingRodItem> gold_fishing_rod = ITEMS.register("gold_fishing_rod",
             ()-> new FishingRodItem(new Item.Properties()
                     .stacksTo(1)
                     .durability(76)

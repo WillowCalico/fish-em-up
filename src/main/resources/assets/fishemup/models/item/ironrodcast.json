@@ -1,6 +1,0 @@
-{
-  "parent": "fishemup:item/ironrod",
-  "textures": {
-    "layer0": "fishemup:item/ironrodcast"
-  }
-}

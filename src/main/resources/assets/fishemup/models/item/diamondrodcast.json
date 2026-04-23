@@ -1,6 +1,0 @@
-{
-  "parent": "fishemup:item/diamondrod",
-  "textures": {
-    "layer0": "fishemup:item/diamondrodcast"
-  }
-}

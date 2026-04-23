@@ -1,14 +1,14 @@
 {
   "parent": "item/handheld_rod",
   "textures": {
-    "layer0": "fishemup:item/ironrod"
+    "layer0": "fishemup:item/diamond_fishing_rod"
   },
   "overrides": [
     {
       "predicate": {
         "cast": 1
       },
-      "model": "fishemup:item/ironrodcast"
+      "model": "fishemup:item/diamond_fishing_rod_cast"
     }
   ]
 }

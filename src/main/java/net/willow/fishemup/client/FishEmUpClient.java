@@ -18,10 +18,10 @@ public class FishEmUpClient {
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
-            ItemProperties.register(ModItems.netheriterod.get(), ResourceLocation.withDefaultNamespace("cast"), (ClampedItemPropertyFunction) FishEmUpClient::castPropertyFunction);
-            ItemProperties.register(ModItems.diamondrod.get(), ResourceLocation.withDefaultNamespace("cast"), (ClampedItemPropertyFunction) FishEmUpClient::castPropertyFunction);
-            ItemProperties.register(ModItems.ironrod.get(), ResourceLocation.withDefaultNamespace("cast"), (ClampedItemPropertyFunction) FishEmUpClient::castPropertyFunction);
-            ItemProperties.register(ModItems.goldrod.get(), ResourceLocation.withDefaultNamespace("cast"), (ClampedItemPropertyFunction) FishEmUpClient::castPropertyFunction);
+            ItemProperties.register(ModItems.netherite_fishing_rod.get(), ResourceLocation.withDefaultNamespace("cast"), (ClampedItemPropertyFunction) FishEmUpClient::castPropertyFunction);
+            ItemProperties.register(ModItems.diamond_fishing_rod.get(), ResourceLocation.withDefaultNamespace("cast"), (ClampedItemPropertyFunction) FishEmUpClient::castPropertyFunction);
+            ItemProperties.register(ModItems.iron_fishing_rod.get(), ResourceLocation.withDefaultNamespace("cast"), (ClampedItemPropertyFunction) FishEmUpClient::castPropertyFunction);
+            ItemProperties.register(ModItems.gold_fishing_rod.get(), ResourceLocation.withDefaultNamespace("cast"), (ClampedItemPropertyFunction) FishEmUpClient::castPropertyFunction);
         });
     }
     public static float castPropertyFunction(ItemStack item, ClientLevel level, LivingEntity entity, int id) {
