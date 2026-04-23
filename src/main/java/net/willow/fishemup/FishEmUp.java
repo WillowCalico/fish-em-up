@@ -1,6 +1,7 @@
 package net.willow.fishemup;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.willow.fishemup.block.ModBlocks;
 import net.willow.fishemup.item.ModCreativeModeTabs;
 import net.willow.fishemup.item.ModItems;
 import org.slf4j.Logger;
@@ -39,6 +40,7 @@ public class FishEmUp {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
