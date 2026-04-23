@@ -15,6 +15,7 @@ public class ModItems {
                     .stacksTo(1)
                     .durability(256)
                     .fireResistant()
+
             ));
 
     public static final DeferredItem<FishingRodItem> diamondrod = ITEMS.register("diamondrod",
